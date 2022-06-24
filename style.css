@@ -1,26 +1,28 @@
-
-
-h1{
-    font-family: verdana;
-    color:gray;
-}
-
 body {
-    background-color: black;
-    font-family: arial;
-    color: white;
+    background-color: red;
+    text-align: center;
 }
-
-.maindiv {
+h1 {
+    color: black;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+#box {
+    text-align: left;
+    display: inline-block;
+    padding-left: 10vw;
+    font-size: 2vw;
     background-color: white;
-    color:black;
-    width: 640px;
-    padding: 20px;
-    border-radius: 25px;
-    align-items: center;
-    margin-left: 40px;
+    width: 60vw;
+    border-radius: 3vw;
 }
-
-.secondarydiv {
-    margin-left: 100px;
+input {
+    width: 20vw;
 }
+#Answer {
+    display: none;
+}
+mark {
+    background-color: yellow;
+    color: black;
+  }
